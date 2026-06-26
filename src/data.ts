@@ -1,5 +1,11 @@
 import { Experience, Campaign, ShortFilm, PhotographyItem, ActingExperience, CollaborationItem } from './types';
 
+import aliPortrait from './assets/images/ali_portrait_1782505485503.jpg';
+import campaignPostcards from './assets/images/campaign_postcards_1782505500765.jpg';
+import photographySample1 from './assets/images/photography_sample_1_1782505516448.jpg';
+import photographySample2 from './assets/images/photography_sample_2_1782505553115.jpg';
+import filmStillFadeath from './assets/images/film_still_fadeath_1782505535235.jpg';
+
 export const PERSONAL_INFO = {
   name: 'Ali Vilan',
   title: 'Cinematic Copywriter & Creative Concept Developer',
@@ -14,7 +20,7 @@ export const PERSONAL_INFO = {
     copywriting: ['Creative Copywriting', 'Concept Development', 'Screenwriting & Storyboarding', 'Brand Voice & Tone', 'Ad Campaign Strategy', 'Narrative Copywriting', 'Commercial Storytelling'],
     cinema: ['Cinematic Direction', 'Cinematography', 'Editing & Color Grading', 'Theatrical Directing', 'Production Planning', 'Sound Recording & Sound Design'],
   },
-  portraitUrl: '/src/assets/images/ali_portrait_1782505485503.jpg'
+  portraitUrl: aliPortrait
 };
 
 export const EXPERIENCES: Experience[] = [
@@ -93,7 +99,7 @@ export const CAMPAIGNS: Campaign[] = [
       'Achieved a 94% organic share rate across digital design portfolios on Persian social media platforms.'
     ],
     images: [
-      '/src/assets/images/campaign_postcards_1782505500765.jpg',
+      campaignPostcards,
       'https://images.unsplash.com/photo-1602491453979-04da136539f9?auto=format&fit=crop&w=600&q=80', // Asiatic Cheetah placeholder
       'https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?auto=format&fit=crop&w=600&q=80'  // Crane placeholder
     ]
@@ -109,7 +115,7 @@ export const SHORT_FILMS: ShortFilm[] = [
     logline: 'Through fragmented images and silence, Ordinary People documents twelve days of war, revealing how ordinary lives slowly transform into narratives of waiting, loss, and collapse.',
     synopsis: 'As geopolitical tensions escalate in Tehran, the city gradually empties and daily life collapses into absolute uncertainty. Ali records twelve days of fear, waiting, displacement, and fragile human connection before the internet shuts down and migration begins.',
     storyline: 'Everyday People documents twelve days of war in Iran, seen through the eyes of Ali and those around him. As tensions escalate, Tehran gradually empties and daily life collapses into uncertainty. Ali and his friends are forced to leave the city, losing all communication as the internet shuts down. Throughout these days, Ali records fragments of fear, waiting, displacement, and fragile moments of human connection. After the war ends, a new wave of migration begins, and Ali watches his friends leave the country one by one, marking the quiet aftermath of conflict and the personal cost of survival.',
-    stillUrl: '/src/assets/images/photography_sample_1_1782505516448.jpg', // Fine-art moody view represent
+    stillUrl: photographySample1, // Fine-art moody view represent
     director: 'Ali Vilan',
     roles: ['Director', 'Cinematographer', 'Editor']
   },
@@ -121,7 +127,7 @@ export const SHORT_FILMS: ShortFilm[] = [
     logline: 'Exploring the quiet poetry hidden in the everyday.',
     synopsis: 'A lyrical exploration of the legacy of director Abbas Kiarostami, followed through the eyes of a group of teenagers who travel to northern Iran carrying his framed photograph.',
     storyline: '“Abbas” follows a group of teenagers on a trip to northern Iran, carrying a framed photo of Abbas Kiarostami. Through humor and subtle absurdity, the photo gradually comes to life in their eyes, until Abbas finally departs from the children, returning to the poetry and nature that have always been his eternal home. The film acts as a meta-meditation on Iranian cinema and the persistence of artistic memory.',
-    stillUrl: '/src/assets/images/photography_sample_2_1782505553115.jpg',
+    stillUrl: photographySample2,
     director: 'Ali Vilan',
     roles: ['Director', 'Writer', 'Editor']
   },
@@ -133,7 +139,7 @@ export const SHORT_FILMS: ShortFilm[] = [
     logline: 'Life is a choice, not a destination.',
     synopsis: 'Trapped in a life defined by repetitive care, silence, and isolation, a young man must make a definitive choice regarding his terminally ill, dying father.',
     storyline: 'Fa Death features the life of a young man, who lives alone with his terminally ill father. His life resumes in repetitive actions of working on his computer from home and nurturing his ailing father. He ends up making the choice of ending his father’s life. Whether the decision is to liberate his father from the constant pain or liberating himself from the heavy burden remains completely ambiguous and open to interpretation.',
-    stillUrl: '/src/assets/images/film_still_fadeath_1782505535235.jpg',
+    stillUrl: filmStillFadeath,
     director: 'Ali Vilan',
     roles: ['Producer', 'Director', 'Writer']
   },
@@ -156,28 +162,28 @@ export const PHOTOGRAPHY: PhotographyItem[] = [
     id: 'photo-1',
     title: 'Silent Canopy, Northern Iran',
     category: 'Fine Art',
-    imageUrl: '/src/assets/images/photography_sample_1_1782505516448.jpg',
+    imageUrl: photographySample1,
     description: 'Fine art composition capturing the misty, quiet hills in Gilan province, exploring silence and space.'
   },
   {
     id: 'photo-2',
     title: 'Double Exposure of Isolation',
     category: 'Fine Art',
-    imageUrl: '/src/assets/images/photography_sample_2_1782505553115.jpg',
+    imageUrl: photographySample2,
     description: 'Conceptual double exposure portrait representing contemporary alienation and the overlap of urban structures.'
   },
   {
     id: 'photo-3',
     title: 'The Silent Father',
     category: 'Film Still',
-    imageUrl: '/src/assets/images/film_still_fadeath_1782505535235.jpg',
+    imageUrl: filmStillFadeath,
     description: 'Cinematic wide frame from the set of "Fa Death", capturing lighting play and physical caretaking.'
   },
   {
     id: 'photo-4',
     title: 'Asiatic Wildlife Postcard Series',
     category: 'Postcard Campaign',
-    imageUrl: '/src/assets/images/campaign_postcards_1782505500765.jpg',
+    imageUrl: campaignPostcards,
     description: 'A presentation of the physical animal conservation postcards featuring copy and illustration.'
   },
   {
